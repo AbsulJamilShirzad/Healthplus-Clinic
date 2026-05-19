@@ -1,7 +1,7 @@
 # HealthPlus Clinic Management System 🏥
 
 HealthPlus is a simple Hospital & Clinic Management System built using Django.  
-This project was created as a university project to practice web development using Django, HTML, and CSS.
+This project was developed as a university project to practice web development using Django, HTML, CSS, and GitHub.
 
 ---
 
@@ -26,29 +26,103 @@ This project was created as a university project to practice web development usi
 - Django
 - HTML
 - CSS
-- Git & GitHub
+- Git
+- GitHub
 
 ---
 
 ## Project Structure
 
+```text
 HealthPlus/
 │
 ├── clinic/
+│   ├── static/
+│   │   └── css/
+│   │       └── style.css
+│   │
+│   ├── templates/
+│   │   ├── index.html
+│   │   ├── about.html
+│   │   ├── doctors.html
+│   │   ├── appointment.html
+│   │   └── contact.html
+│   │
+│   ├── views.py
+│   ├── urls.py
+│   └── models.py
+│
 ├── config/
 ├── manage.py
 ├── db.sqlite3
-├── static/
-├── templates/
+└── README.md
+```
 
 ---
 
 ## Installation
 
-1. Clone the repository
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/HealthPlus-Clinic.git
+```
+
+### 2. Open the project folder
+
+```bash
+cd HealthPlus-Clinic
+```
+
+### 3. Install Django
+
+```bash
+pip install django
+```
+
+### 4. Run the server
+
+```bash
+python manage.py runserver
+```
+
+### 5. Open in browser
+
+```text
+http://127.0.0.1:8000/
+```
+
+---
+
+## Pages
+
+- Home
+- About
+- Doctors
+- Appointment
+- Contact
+
+---
+
+## Future Improvements
+
+- Save appointments to database
+- Authentication system
+- Admin dashboard
+- Bootstrap UI
+- Online deployment
+- Doctor management system
+
+---
 
 ## Author
-Abdul Jamil Shirzad
+
+Developed by Abdul Jamil Shirzad  
+Computer Science Student  
+Django Web Development Project
+
+---
+
+## License
+
+This project is for educational purposes only.
