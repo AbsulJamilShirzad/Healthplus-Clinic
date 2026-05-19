@@ -1,0 +1,57 @@
+.navbar {
+    background-color: darkblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+}
+
+body {
+    background-color: #f0f8ff;
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 60px;
+}
+
+p {
+    color: gray;
+    font-size: 28px;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 15px 35px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: navy;
+}
+
+input {
+    width: 300px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
