@@ -49,3 +49,6 @@ HealthPlus/
 
 ```bash
 git clone https://github.com/yourusername/HealthPlus-Clinic.git
+
+## Author
+Abdul Jamil Shirzad
